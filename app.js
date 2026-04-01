@@ -28,6 +28,7 @@ function divide(){
     }
 else{
     const result = (num1/num2).toFixed(2);
+    document.getElementById('result').innerHTML = `<h1 class=" output  fw-bold text-center"> ${result} </h1>`;
 }
 }
 function clearAll(){
